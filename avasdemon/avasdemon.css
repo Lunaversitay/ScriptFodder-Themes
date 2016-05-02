@@ -1,50 +1,47 @@
 /* Colors and inspired by avasdemon.com (best webcomic ever) */
 /* By Lunaversity (http://steamcommunity.com/id/lunaversity) for ScriptFodder */
-
 /* Changing body */
 
-body, html{
- background: #4d0a00;
+body,
+html {
+    background: #4d0a00;
 }
-
-border-color, border-bottom, border-top{
- color: #f5bc2f !important;   
+border-color,
+border-bottom,
+border-top {
+    color: #f5bc2f !important;
 }
-
-hr{
-	color: #f5bc2f !important;
+hr {
+    color: #f5bc2f !important;
     border-color: #f5bc2f !important;
 }
-
-
 /* Changing Text */
 
-small{
-  color: #aaa !important;
+small {
+    color: #aaa !important;
 }
-
-span{
-  color: #aaa !important;
+span {
+    color: #aaa !important;
 }
-
-h1,h2,h3,h4,h5,p{
-  color: #F90 !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    color: #F90 !important;
 }
-
-a{
-  text-decoration: none !important;
-  color: #FC3 !important;
+a {
+    text-decoration: none !important;
+    color: #FC3 !important;
 }
-
-a:hover{
-  text-decoration: underline !important;
-  color: #C00 !important;
+a:hover {
+    text-decoration: underline !important;
+    color: #C00 !important;
 }
-
-.text-center{
-  color: #F90;
+.text-center {
+    color: #F90;
 }
-
 /* Change script listings/job boxes */
 
 .script-listing {
@@ -61,11 +58,11 @@ a:hover{
 }
 /* Change NAV bar */
 
-navbar-default{
-	border-color: #f5bc2f;
+navbar-default {
+    border-color: #f5bc2f;
 }
-
-.navbar, navbar-default {
+.navbar,
+navbar-default {
     border-radius: 0;
     min-height: 60px;
     background: #5E2121;
@@ -75,7 +72,6 @@ navbar-default{
     border-color: #f5bc2f !important;
     background-color: #5E2121;
 }
-
 .navbar .nav>li>a {
     color: #B2B2B2;
     font-size: 13px;
@@ -83,83 +79,74 @@ navbar-default{
     font-weight: 500;
     background-color: #5E2121;
 }
-
-.page-header{
-	border-bottom: 1px solid #f5bc2f !important;
+.page-header {
+    border-bottom: 1px solid #f5bc2f !important;
     background: #4D0A00 !important;
 }
-
 /* Bootstrap */
 
-.main-jumbo{
-  background-image: 0;
-  background: #3E0404;
+.main-jumbo {
+    background-image: 0;
+    background: #3E0404;
 }
-
 /* what the fuck, it has inner-css >-. */
-.row{
-  background:#4D0A00 !important;
-  background-color:#4D0A00 !important;
+
+.row {
+    background: #4D0A00 !important;
+    background-color: #4D0A00 !important;
     border-color: #f5bc2f !important;
 }
-
 /* footer */
 
-.footer-top{
-  background: #3E0404 !important;
+.footer-top {
+    background: #3E0404 !important;
 }
-
-.footer-bottom{
-  background: #4d0a00 !important;
+.footer-bottom {
+    background: #4d0a00 !important;
 }
-
 /* icons */
 
-.fa{
-  color: #FC3 !important;
-  background: transparent !important;
+.fa {
+    color: #FC3 !important;
+    background: transparent !important;
 }
-
 /* buttons */
 
-.btn{
-	background: #4C1313 !important;
+.btn {
+    background: #4C1313 !important;
     color: #FFF !important;
     border-color: #8f2f2f !important;
 }
-
-.btn:hover{
+.btn:hover {
     background: #E24C4C !important;
     color: #FFF !important;
     border-color: #8f2f2f !important;
 }
-
-.panel, .panel-default, .panel-heading, .panel-group, .panel-collapsible{
-   background-color: #4C1313 !important;
+.panel,
+.panel-default,
+.panel-heading,
+.panel-group,
+.panel-collapsible {
+    background-color: #4C1313 !important;
     color: #FFF !important;
 }
-
-.panel-heading{
-  background: #5E2121 !important;
+.panel-heading {
+    background: #5E2121 !important;
     border-bottom: 1px solid #f5bc2f !important;
     border-color: #f5bc2f !important;
 }
-
 /* Misc cause I'm tired of categorizing shit */
 
-.label{
- 	color: #FFF !important;   
+.label {
+    color: #FFF !important;
 }
-
-.panel-default{
+.panel-default {
     border: 0 !important;
     border-color: #f5bc2f;
 }
-
-.page-tabs .selected a{
-
+.page-tabs .selected a {
     background: #fff;
-     border-bottom-color: #f5bc2f !important;
+    border-bottom-color: #f5bc2f !important;
     border-left-color: #f5bc2f !important;
     border-right-color: #f5bc2f !important;
     border-style: solid;
@@ -169,108 +156,101 @@ navbar-default{
     margin-top: -1px;
     background: #E24C4C !important;
 }
-
-.well{
+.well {
     background: #5E2121 !important;
     color: #FFF;
     border: 0 !important;
 }
-
-.script-description{
- 	border: 1px dashed #f5bc2f !important;   
+.script-description {
+    border: 1px dashed #f5bc2f !important;
 }
-
-.panel-footer{
- background: #5E2121 !important;   
+.panel-footer {
+    background: #5E2121 !important;
 }
-
-li{
- color:#FFF !important;   
+li {
+    color: #FFF !important;
 }
-
-.thumbnail{
- background:#5E2121 !important;
-	border: 0 !important;
+.thumbnail {
+    background: #5E2121 !important;
+    border: 0 !important;
 }
-
-.list-group-item{
+.list-group-item {
     background: #4C1313 !important;
     border-color: #f5bc2f !important;
 }
-
-select{
- background: #4C1313 !important;
-	border-color: #8F2F2F !important;
+select {
+    background: #4C1313 !important;
+    border-color: #8F2F2F !important;
     color: #aaa !important;
 }
-
-input{
- background: #4C1313 !important;
-	border-color: #8F2F2F !important;
+input {
+    background: #4C1313 !important;
+    border-color: #8F2F2F !important;
 }
-
-.dropdown-menu{
- border-color: #f5bc2f !important;
+.dropdown-menu {
+    border-color: #f5bc2f !important;
     background: #4D0A00 !important;
 }
-
-.navbar-default .navbar-nav>.active>a{
- background: #E24C4C !important;
- border-bottom: 4px solid #f5bc2f !important;
+.navbar-default .navbar-nav>.active>a {
+    background: #E24C4C !important;
+    border-bottom: 4px solid #f5bc2f !important;
 }
-
-th{
- color: #aaa;
- background: #5E2121 !important;
+th {
+    color: #aaa;
+    background: #5E2121 !important;
 }
-
-td{
- color: #aaa;
- background: #3E0404 !important;
+td {
+    color: #aaa;
+    background: #3E0404 !important;
 }
-
-.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
-   background: #E24C4C !important;
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background: #E24C4C !important;
     border-color: #8F2F2F !important;
 }
-
-.pagination>li>a, .pagination>li>span{
-	background: #4C1313 !important;
+.pagination>li>a,
+.pagination>li>span {
+    background: #4C1313 !important;
     border-color: #8F2F2F !important;
 }
-
 /* hover */
-.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
- 	background: #8F2F2F !important;
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    background: #8F2F2F !important;
     color: #aaa !important;
     border-color: #8F2F2F !important;
 }
-
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
- 	background: #E24C4C !important;
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background: #E24C4C !important;
     border-color: #f5bc2f !important;
 }
-
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
- 	background: #E24C4C !important;   
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background: #E24C4C !important;
 }
-
-.dashboard-widget{
-background:#4C1313 !important;
-border: 0;
+.dashboard-widget {
+    background: #4C1313 !important;
+    border: 0;
 }
-
-.panel-body canvas{
-padding: 0px !important;   
+.panel-body canvas {
+    padding: 0px !important;
 }
-
 /* cloud flare */
 
-#cf-wrapper #cf-error-details .cf-highlight{
- 	background: #4d0a00 !important;   
+#cf-wrapper #cf-error-details .cf-highlight {
+    background: #4d0a00 !important;
 }
-
-#cf-wrapper #cf-error-details{
-   background: #5E2121 !important;
-    color: #B2B2B2 !important; 
+#cf-wrapper #cf-error-details {
+    background: #5E2121 !important;
+    color: #B2B2B2 !important;
 }
