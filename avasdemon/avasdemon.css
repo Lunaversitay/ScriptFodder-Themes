@@ -260,6 +260,10 @@ background:#4C1313 !important;
 border: 0;
 }
 
+.panel-body canvas{
+padding: 0px !important;   
+}
+
 /* cloud flare */
 
 #cf-wrapper #cf-error-details .cf-highlight{
