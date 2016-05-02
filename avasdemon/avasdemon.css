@@ -166,6 +166,7 @@ navbar-default {
 }
 .panel-footer {
     background: #5E2121 !important;
+    border-color: #f5bc2f !important;
 }
 li {
     color: #FFF !important;
