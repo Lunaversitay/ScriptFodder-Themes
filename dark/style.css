@@ -151,6 +151,7 @@ col-md-1 {
     text-shadow: none !important;
 }
 .btn-default:hover {
+    color: #fff !important;
     border: 2.5px solid #000 !important;
     background: #2c2c2c !important;
 }
