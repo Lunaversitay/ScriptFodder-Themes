@@ -223,92 +223,76 @@ col-md-1 {
     color: #aaa !important;
     border-color: #000 !important;
 }
-
-.main-jumbo{
- 	background-image: url(http://i.imgur.com/352lyUH.gif) !important;
+.main-jumbo {
+    background-image: url(http://i.imgur.com/352lyUH.gif) !important;
     background-size: cover !important;
     background-attachment: fixed !important;
 }
-
-.breadcrumb{
- 	background-color: #222222 !important;
+.breadcrumb {
+    background-color: #222222 !important;
     border: 1.5px solid #000;
 }
-
-.forum-thread-title{
- 	background-color: #222222 !important;   
+.forum-thread-title {
+    background-color: #222222 !important;
 }
-
-.forum-post{
- 	background-color: #2C2C2C !important;
+.forum-post {
+    background-color: #2C2C2C !important;
     border: 1.5px solid #000 !important;
 }
-
-.forum-post-author{
- 	background-color: #222222 !important;
+.forum-post-author {
+    background-color: #222222 !important;
     border: 1.5px solid #000 !important;
 }
-
-.forum-post-footer-right a.post-button{
- 	background-color: #222222 !important;
+.forum-post-footer-right a.post-button {
+    background-color: #222222 !important;
     border: 1.5px solid #000 !important;
 }
-
-.forum-post-ratings{
- 	color: #aaa !important;   
-}
-
-.forum-category-header{
- 	background-color: #222222 !important;   
-}
-
-.table>thead:first-child>tr:first-child>td{
- 	background-color: #222222 !important;   
-}
-
-.forum-category-name{
- 	background-color: #222222 !important;   
-}
-
-.forum-category-count{
- 	background-color: #222222 !important;   
-}
-
-.forum-category-lastpost{
- 	background-color: #222222 !important;   
-}
-
-blockquote{
- 	background-color: #222222 !important;   
-}
-
-.forum-users-viewing{
-	border: 1.5px solid #000 !important;
+.forum-post-ratings {
     color: #aaa !important;
 }
-
-.ratingsbox{
- 	background-color: transparent !important;   
+.forum-category-header {
+    background-color: #222222 !important;
 }
-
-.popupbox{
- 	background-color: #222222 !important;   
+.table>thead:first-child>tr:first-child>td {
+    background-color: #222222 !important;
+}
+.forum-category-name {
+    background-color: transparent !important;
+}
+.forum-category-count {
+    background-color: transparent !important;
+}
+.forum-category-lastpost {
+    background-color: transparent !important;
+}
+blockquote {
+    background-color: #222222 !important;
+}
+.forum-users-viewing {
+    border: 1.5px solid #000 !important;
+    color: #aaa !important;
+}
+.ratingsbox {
+    background-color: transparent !important;
+}
+.popupbox {
+    background-color: #222222 !important;
     border-color: #000;
 }
-
-.forum-thread-pagination{
- 	background-color: #222222 !important;
+.forum-thread-pagination {
+    background-color: #222222 !important;
     border: 1.5px solid #000;
 }
-
-li{
- 	color: #aaa;   /* not important */
+li {
+    color: #aaa;
+    /* not important */
 }
-
-.md-editor>.md-header{
- 	background-color: #222222 !important;   
+.md-editor>.md-header {
+    background-color: #222222 !important;
 }
-
-.md-editor active{
- 	border-color: #000;   
+.md-editor active {
+    border-color: #000;
+}
+.warning {
+    background-color: rgba(240, 173, 78, .1) !important;
 }
