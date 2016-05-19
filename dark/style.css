@@ -297,3 +297,7 @@ li {
 .warning {
     background-color: rgba(240, 173, 78, .1) !important;
 }
+
+.forum-new-posts a {
+    color: #333 !important;
+}
