@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2,
+	"name": "Lunaversity's ScriptFodder Themes",
+	"version": "1.0",
+	"permissions": [
+		"*://*.scriptfodder.com/*",
+		"tabs",
+		"storage"
+	],
+	"background": {
+		"scripts": ["assets/js/background.js"],
+		"persistent": false
+	},
+	"icons": {
+		"48": "assets/img/icon.png"
+	},
+	"content_scripts": [{
+			"matches": ["*://*.scriptfodder.com/*"],
+			"js": ["assets/js/main.js"],
+			"run_at": "document_start"
+	}],
+	"page_action": {
+		"default_icon": {
+			"48": "assets/img/icon.png"
+		},
+		"default_title": "Settings",
+		"default_popup": "settings.html"
+	},
+	"web_accessible_resources": [
+		"assets/img/logo_white.png",
+		"assets/css/themes/dark.css",
+		"assets/css/themes/avasdemon.css"
+	],
+	"author": "William Venner"
+}

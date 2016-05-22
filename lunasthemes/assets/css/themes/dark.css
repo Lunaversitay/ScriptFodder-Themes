@@ -1,6 +1,4 @@
-/* I won't be listing shit cause I'm a lazy fuck */
-/* By Lunaversity */
-/* get shitty borders outta here */
+/* https://github.com/Lunaversitay/ScriptFodder-Themes */
 
 * {
     border-radius: 0 !important;
@@ -121,6 +119,11 @@ col-md-1 {
     border-top: 2.5px solid #000 !important;
     background: #222 !important;
 }
+.navbar-brand img {
+	padding: 16px 88.415px;
+	background-image: url(../../img/logo_white.png);
+	background-size: 100% 100%;
+}
 .navbar .nav>li>a {
     color: #fff !important;
 }
@@ -129,10 +132,13 @@ col-md-1 {
 }
 .navbar-default .navbar-nav>.active>a {
     background-color: #404040 !important;
-    border-bottom: 3px solid #000 !important;
+    border-bottom: initial !important;
     border-left: 2.5px solid #000 !important;
     border-right: 2.5px solid #000 !important;
     color: #aaa !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	padding-bottom: 20px !important;
 }
 .thumbnail {
     border-color: #000 !important;
@@ -208,13 +214,6 @@ col-md-1 {
     background: #222 !important;
     border-color: #000 !important;
 }
-.dropdown-menu>li>a:focus,
-.dropdown-menu>li>a:hover {
-    background: #2c2c2c !important;
-    border-top: 1.5px solid #000 !important;
-    border-bottom: 1.5px solid #000 !important;
-    color: #aaa !important;
-}
 .list-group-item {
     background: #2c2c2c !important;
     border: 2.5px solid #000 !important;
@@ -223,11 +222,6 @@ col-md-1 {
     background: transparent !important;
     color: #aaa !important;
     border-color: #000 !important;
-}
-.main-jumbo {
-    background-image: url(http://i.imgur.com/352lyUH.gif) !important;
-    background-size: cover !important;
-    background-attachment: fixed !important;
 }
 .breadcrumb {
     background-color: #222222 !important;
@@ -300,4 +294,35 @@ li {
 
 .forum-new-posts a {
     color: #333 !important;
+}
+
+table.forum-index tr > .forum-category-name > div > a > img:not([src='/assets/img/badges/pug.png']) {
+	-webkit-filter: contrast(0%) brightness(1000%);
+}
+
+.dashboard-widget {
+	border: 1px solid #000 !important;
+	background-color: #313131 !important;
+	color: #aaa !important;
+}
+.dashboard-widget > p {
+	color: #aaa !important;
+}
+
+.img-thumbnail, body {
+	background-color: #1F1F1F !important;
+}
+
+body > div.container-fluid > div {
+	margin-top: -30px !important;
+}
+
+.main-jumbo > h2 {
+	color: #fff !important;
+}
+.main-jumbo > p {
+	color: #fff !important;
+}
+.main-jumbo a {
+	color: #000 !important;
 }
