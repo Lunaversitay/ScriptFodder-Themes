@@ -2,6 +2,9 @@
 /* By Lunaversity (http://steamcommunity.com/id/lunaversity) for ScriptFodder */
 /* Changing body */
 
+* {
+    border-color: #f5bc2f !important;
+}
 body,
 html {
     background: #4d0a00;
@@ -80,13 +83,13 @@ navbar-default {
     background-color: #5E2121;
 }
 .page-header {
-    border-bottom: 1px solid #f5bc2f !important;
+    border-bottom: 5px solid #f5bc2f !important;
     background: #4D0A00 !important;
 }
 /* Bootstrap */
 
 .main-jumbo {
-    background-image: 0;
+    background-image: none;
     background: #3E0404;
 }
 /* what the fuck, it has inner-css >-. */
@@ -115,12 +118,18 @@ navbar-default {
 .btn {
     background: #4C1313 !important;
     color: #FFF !important;
+    text-shadow: none !important;
     border-color: #8f2f2f !important;
 }
 .btn:hover {
     background: #E24C4C !important;
     color: #FFF !important;
     border-color: #8f2f2f !important;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background: #8F2F2F !important;
+    color: #aaa !important;
 }
 .panel,
 .panel-default,
@@ -137,6 +146,10 @@ navbar-default {
 }
 /* Misc cause I'm tired of categorizing shit */
 
+.page-tabs a:focus,
+.page-tabs a:hover {
+    background: #E24C4C !important;
+}
 .label {
     color: #FFF !important;
 }
@@ -145,7 +158,6 @@ navbar-default {
     border-color: #f5bc2f;
 }
 .page-tabs .selected a {
-    background: #fff;
     border-bottom-color: #f5bc2f !important;
     border-left-color: #f5bc2f !important;
     border-right-color: #f5bc2f !important;
@@ -254,4 +266,54 @@ td {
 #cf-wrapper #cf-error-details {
     background: #5E2121 !important;
     color: #B2B2B2 !important;
+}
+/* AUGHWNFGE FORUMS */
+
+.forum-category-header {
+    background: #8F2F2F !important;
+}
+.forum-thread-title {
+    background: #5E2121 !important;
+    border-left: 1px solid !important;
+    border-right: 1px solid !important;
+    border-top: 1px solid !important;
+}
+.forum-thread-pagination {
+    background: #5E2121 !important;
+    border-left: 1px solid #F5BC2F !important;
+    border-right: 1px solid #F5BC2F !important;
+    border-bottom: 1px solid #F5BC2F !important;
+}
+.forum-post-author {
+    background: #4D0A00 !important;
+    color: #F90 !important;
+}
+.forum-post-right {
+    background: #5E2121 !important;
+}
+.forum-post-footer-right a.post-button {
+    background-color: #4C1313 !important;
+    border: 1px solid #8f2f2f !important;
+    color: #fff !important;
+    float: right;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0 4px 4px;
+    padding: 6px 12px;
+}
+.popupbox {
+    background-color: #4D0A00 !important;
+}
+.blockquote {
+    background: #4D0A00 !important;
+}
+.forum-new-posts {
+    background: #5E2121 !important;
+}
+.form-control {
+    background: #5E2121 !important;
+    color: #fff !important;
+}
+.breadcrumb {
+    background: #5E2121 !important;
 }
