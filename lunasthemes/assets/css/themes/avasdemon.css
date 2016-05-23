@@ -304,8 +304,11 @@ td {
 .popupbox {
     background-color: #4D0A00 !important;
 }
-.blockquote {
+.markdown-body blockquote {
     background: #4D0A00 !important;
+}
+.md-editor>.md-header{
+    background: #4D0A00 !important;   
 }
 .forum-new-posts {
     background: #5E2121 !important;
