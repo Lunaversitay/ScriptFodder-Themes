@@ -326,3 +326,7 @@ body > div.container-fluid > div {
 .main-jumbo a {
 	color: #000 !important;
 }
+
+.notification-count{
+	background: #1F1F1F !important;
+}
