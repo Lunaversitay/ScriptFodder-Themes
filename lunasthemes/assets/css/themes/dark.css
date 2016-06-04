@@ -330,3 +330,8 @@ body > div.container-fluid > div {
 .notification-count{
 	background: #1F1F1F !important;
 }
+
+.label {
+	color: #fff !important;
+}
+}
